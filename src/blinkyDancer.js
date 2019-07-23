@@ -20,6 +20,7 @@
 
 var MakeBlinkyDancer = function(top, left, timeBetweenSteps) {
   MakeDancer.call(this, top, left, timeBetweenSteps);
+  this.$node = $('<img src="images/gudetama.jpg" class="blinkydancer"></img>');
   this.setPosition(top, left);
 }
 
