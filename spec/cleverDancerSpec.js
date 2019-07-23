@@ -1,11 +1,11 @@
 describe('cleverDancer', function() {
 
   var cleverDancer, clock;
-  var timeBetweenSteps = 10;
+  var timeBetweenSteps = 25;
 
   beforeEach(function() {
     clock = sinon.useFakeTimers();
-    cleverDancer = new CleverDancer(5, 10, timeBetweenSteps);
+    cleverDancer = new CleverDancer(10, 20, timeBetweenSteps);
   });
 
   it('should have a jQuery $node object', function() {

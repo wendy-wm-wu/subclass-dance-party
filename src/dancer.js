@@ -50,3 +50,9 @@ MakeDancer.prototype.setPosition = function(top, left) {
   };
   this.$node.css(styleSettings);
 }
+
+MakeDancer.prototype.interact = function() {
+  //if top of one dancer - the top of another dancer and left of one dancer and left of other dancer is less than a number
+    //then the pair will interact with each other via css
+  //if they are in a pair, there will be no trigger for interaction
+}

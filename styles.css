@@ -27,10 +27,25 @@ body, a:link, a:visited, a:active{
 }
 
 .blinkydancer {
-  border:10px solid yellow;
-  border-radius:10px;
   position:absolute;
   height: 60px;
   width: 60px;
 }
 
+.stupiddancer {
+  position:absolute;
+  height: 60px;
+  width: 60px;
+}
+
+.cleverdancer {
+  position:absolute;
+  height: 60px;
+  width: 60px;
+}
+
+.lineUpDanceFloor {
+  border:2px solid;
+  height: 100%;
+  width: 25%;
+}
