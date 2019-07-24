@@ -1,8 +1,8 @@
 var StupidDancer = function(top, left, timeBetweenSteps) {
   MakeDancer.call(this, top, left, timeBetweenSteps);
-  this.$node = $('<img src="images/gudetama.png" class="stupiddancer"></img>');
+  this.$node = $(`<img src="images/gudetama.png" class="stupiddancer" id="${count}"></img>`);
   this.setPosition(top, left);
-  this.interact();
+  this.interact(top, left);
 }
 
 StupidDancer.prototype = Object.create(MakeDancer.prototype);

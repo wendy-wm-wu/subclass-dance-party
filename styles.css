@@ -3,13 +3,13 @@ body, html{
 }
 body{
   margin: 0px;
-  background-color:#444;
+  background-image: url('images/background.png');
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
-.title, .addDancerButton{
+.title, .addDancerButton, .lineUp{
   padding:5px 12px;
   float:right;
 }
@@ -28,24 +28,19 @@ body, a:link, a:visited, a:active{
 
 .blinkydancer {
   position:absolute;
-  height: 60px;
-  width: 60px;
+  height: 150px;
+  width: 150px;
 }
 
 .stupiddancer {
   position:absolute;
-  height: 60px;
-  width: 60px;
+  height: 150px;
+  width: 150px;
 }
 
 .cleverdancer {
   position:absolute;
-  height: 60px;
-  width: 60px;
+  height: 150px;
+  width: 150px;
 }
 
-.lineUpDanceFloor {
-  border:2px solid;
-  height: 100%;
-  width: 25%;
-}

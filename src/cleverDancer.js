@@ -1,8 +1,8 @@
 var CleverDancer = function(top, left, timeBetweenSteps) {
   MakeDancer.call(this, top, left, timeBetweenSteps);
-  this.$node = $('<img src="images/minion.jpeg" class="cleverdancer"></img>');
+  this.$node = $(`<img src="images/minion.png" class="cleverdancer" id="${count}"></img>`);
   this.setPosition(top, left);
-  this.interact();
+  this.interact(top, left);
 }
 
 CleverDancer.prototype = Object.create(MakeDancer.prototype);
